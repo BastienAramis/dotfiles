@@ -1,0 +1,55 @@
+" Run :actionlist to get a list of Actions
+
+" Remap for Dvorak
+noremap t k
+noremap n j
+noremap s l
+noremap j n
+noremap k s
+
+" Leader Key
+let mapleader = " "
+
+" Plugins
+set nerdtree
+set clipboard+=unnamed
+set clipboard+=ideaput
+set relativenumber
+set ignorecase
+
+" Build & Run
+nnoremap <leader>run :action Run<cr>
+nnoremap <leader>reb :action RebuildGradleProject<cr>
+nnoremap <leader>gra :action Android.SyncProject<cr>
+
+" Debug
+nnoremap <leader>deb :action Debug<cr>
+nnoremap <leader>bp :action ToggleLineBreakpoint<cr>
+
+" Window
+nnoremap <leader>sh :action SplitHorizontally<cr>
+nnoremap <leader>sv :action SplitVertically<cr>
+nnoremap <leader>only :action CloseAllEditorsButActive<cr>
+nnoremap <leader>clear :action CloseAllEditors<cr>
+
+" Refactor
+nnoremap <leader>re :action RenameElement<cr>
+nnoremap <leader>rf :action RenameFile<cr>
+nnoremap <leader>oi :action OptimizeImports<cr>
+
+" Tool
+nnoremap <leader>fp :action FindInPath<cr>
+nnoremap <leader>gf :action GotoFile<cr>
+nnoremap <leader>su :action ShowUsages<cr>
+nnoremap <leader>log :action ActivateLogcatToolWindow<cr>
+nnoremap <leader>ter :action ActivateTerminalToolWindow<cr>
+nnoremap <leader>dfm :action ToggleDistractionFreeMode<cr>
+
+" NERDTree
+nnoremap <leader>nt :NERDTree<cr>
+
+" Disable Arrows
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
