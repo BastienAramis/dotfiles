@@ -1,110 +1,101 @@
 
 function icon_map() {
   case "$1" in
-  "Keynote")
-    icon_result=":keynote:"
-    ;;
-  "Figma")
-    icon_result=":figma:"
-    ;;
-  "Alacritty" | "Hyper" | "iTerm2" | "kitty" | "Terminal" | "WezTerm")
-    icon_result=":terminal:"
-    ;;
-  "App Store")
-    icon_result=":app_store:"
+  "Android Studio")
+    icon_result=":android_studio:"
     ;;
   "Anki")
     icon_result=":anki:"
     ;;
-  "Discord" | "Discord Canary" | "Discord PTB")
-    icon_result=":discord:"
-    ;;
-  "リマインダー")
-    icon_result=":reminders:"
-    ;;
-  "Finder")
-    icon_result=":finder:"
-    ;;
-  "メモ" | "Notes")
-    icon_result=":notes:"
-    ;;
-  "Spotlight")
-    icon_result=":spotlight:"
-    ;;
-  "Chromium" | "Google Chrome" | "Google Chrome Canary")
-    icon_result=":google_chrome:"
-    ;;
-  "Firefox")
-    icon_result=":firefox:"
-    ;;
-  "Slack")
-    icon_result=":slack:"
-    ;;
-  "Pages")
-    icon_result=":pages:"
-    ;;
-  "写真")
-    icon_result=":photos:"
-    ;;
-  "Mail")
-    icon_result=":mail:"
-    ;;
-  "WebStorm")
-    icon_result=":web_storm:"
-    ;;
-  "VLC")
-    icon_result=":vlc:"
-    ;;
-  "Music")
-    icon_result=":music:"
-    ;;
-  "Calendar")
-    icon_result=":calendar:"
-    ;;
-  "Safari")
-    icon_result=":safari:"
-    ;;
-  "Xcode")
-    icon_result=":xcode:"
-    ;;
-  "Numbers")
-    icon_result=":numbers:"
+  "App Store")
+    icon_result=":app_store:"
     ;;
   "Arc")
     icon_result=":arc:"
     ;;
-  "zoom.us")
-    icon_result=":zoom:"
+  "Calendar")
+    icon_result=":calendar:"
     ;;
-  "Preview")
-    icon_result=":pdf:"
-    ;;
-  "Skype")
-    icon_result=":skype:"
+  "Discord")
+    icon_result=":discord:"
     ;;
   "Docker" | "Docker Desktop")
     icon_result=":docker:"
     ;;
-  "Android Studio")
-    icon_result=":android_studio:"
+  "Figma")
+    icon_result=":figma:"
     ;;
-  "Messages")
-    icon_result=":messages:"
+  "Finder")
+    icon_result=":finder:"
+    ;;
+  "Firefox")
+    icon_result=":firefox:"
+    ;;
+  "Google Chrome")
+    icon_result=":google_chrome:"
     ;;
   "IntelliJ IDEA")
     icon_result=":idea:"
     ;;
-  "FaceTime")
-    icon_result=":face_time:"
+  "iTerm2" | "Terminal" | "WezTerm")
+    icon_result=":terminal:"
     ;;
-  "System Preferences" | "System Settings")
-    icon_result=":gear:"
+  "Jan")
+    icon_result=":lm_studio:"
+    ;;
+  "Keynote")
+    icon_result=":keynote:"
+    ;;
+  "Mail")
+    icon_result=":mail:"
+    ;;
+  "Music")
+    icon_result=":music:"
+    ;;
+  "Notes" | "メモ")
+    icon_result=":notes:"
+    ;;
+  "Numbers")
+    icon_result=":numbers:"
+    ;;
+  "Pages")
+    icon_result=":pages:"
+    ;;
+  "Photos" | "写真")
+    icon_result=":photos:"
     ;;
   "PhpStorm")
     icon_result=":php_storm:"
     ;;
-  "Jan")
-    icon_result=":lm_studio:"
+  "Preview")
+    icon_result=":pdf:"
+    ;;
+  "リマインダー")
+    icon_result=":reminders:"
+    ;;
+  "Safari")
+    icon_result=":safari:"
+    ;;
+  "Skype")
+    icon_result=":skype:"
+    ;;
+  "Slack")
+    icon_result=":slack:"
+    ;;
+  "System Settings" | "システム設定")
+    icon_result=":gear:"
+    ;;
+  "VLC")
+    icon_result=":vlc:"
+    ;;
+  "WebStorm")
+    icon_result=":web_storm:"
+    ;;
+  "Xcode")
+    icon_result=":xcode:"
+    ;;
+  "zoom.us")
+    icon_result=":zoom:"
     ;;
   *)
     icon_result=":default:"
