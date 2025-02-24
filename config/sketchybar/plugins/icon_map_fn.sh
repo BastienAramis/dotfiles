@@ -22,7 +22,7 @@ function icon_map() {
   "Finder")
     icon_result=":finder:"
     ;;
-  "メモ")
+  "メモ" | "Notes")
     icon_result=":notes:"
     ;;
   "Spotlight")
@@ -93,6 +93,12 @@ function icon_map() {
     ;;
   "System Preferences" | "System Settings")
     icon_result=":gear:"
+    ;;
+  "PhpStorm")
+    icon_result=":php_storm:"
+    ;;
+  "Jan")
+    icon_result=":lm_studio:"
     ;;
   *)
     icon_result=":default:"
