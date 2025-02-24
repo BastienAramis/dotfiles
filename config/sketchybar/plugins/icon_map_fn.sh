@@ -13,6 +13,9 @@ function icon_map() {
   "App Store")
     icon_result=":app_store:"
     ;;
+  "Anki")
+    icon_result=":anki:"
+    ;;
   "Discord" | "Discord Canary" | "Discord PTB")
     icon_result=":discord:"
     ;;
@@ -39,6 +42,9 @@ function icon_map() {
     ;;
   "Pages")
     icon_result=":pages:"
+    ;;
+  "写真")
+    icon_result=":photos:"
     ;;
   "Mail")
     icon_result=":mail:"
