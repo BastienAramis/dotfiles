@@ -15,4 +15,5 @@ export BATTERY_50_ICON=􀺶
 export BATTERY_25_ICON=􀛩
 export BATTERY_0_ICON=􀛪
 
+export TIME_JP_ICON=●
 
