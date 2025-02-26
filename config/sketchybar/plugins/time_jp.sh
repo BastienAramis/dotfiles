@@ -1,9 +1,6 @@
 #!/bin/bash
 
-source "$HOME/.config/sketchybar/icons.sh"
+LABEL=$(LC_ALL=ja_JP.UTF-8 TZ='Asia/Tokyo' date +'%-m月%d日(%a) %H:%M')
 
-ICON="$TIME_JP_ICON"
-LABEL=$(LC_ALL=ja_JP.UTF-8 TZ='Asia/Tokyo' date +'%H:%M')
-
-sketchybar --set $NAME icon="$ICON" label="${LABEL}"
+sketchybar --set $NAME label="$LABEL" 
 
