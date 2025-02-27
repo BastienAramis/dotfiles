@@ -170,5 +170,6 @@ alt-ctrl-s = ['join-with right', 'mode main']
 
 # open app in specific workspace
 [[on-window-detected]]
-if.app-id = 'com.apple.Music'
-run = "move-node-to-workspace 0"
+if.app-id = 'com.apple.systempreferences'
+run = "layout tiling"
+
