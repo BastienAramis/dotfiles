@@ -1,11 +1,20 @@
 " Run :actionlist to get a list of Actions
 
 " Remap for Dvorak
-noremap t k
+noremap h h
+noremap H H
 noremap n j
+noremap N J
+noremap t k
+noremap T K
 noremap s l
-noremap j n
+noremap S L
+noremap l n
+noremap L N
+noremap j t
+noremap J T
 noremap k s
+noremap K S
 
 " Leader Key
 let mapleader = " "
