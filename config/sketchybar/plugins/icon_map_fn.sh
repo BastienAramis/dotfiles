@@ -49,6 +49,9 @@ function icon_map() {
   "Mail")
     icon_result=":mail:"
     ;;
+  "mpv")
+    icon_result=":mpv:"
+    ;;
   "Music")
     icon_result=":music:"
     ;;
@@ -67,7 +70,7 @@ function icon_map() {
   "PhpStorm")
     icon_result=":php_storm:"
     ;;
-  "Preview")
+  "プレビュー" | "Preview")
     icon_result=":pdf:"
     ;;
   "リマインダー")
