@@ -54,7 +54,6 @@ source "$ITEM_DIR/front_app.sh"
 
 # -- RIGHT Side Items -- 
 source "$ITEM_DIR/time.sh"
-source "$ITEM_DIR/time_jp.sh"
 source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/sound.sh"
 sketchybar --add item cat center \
