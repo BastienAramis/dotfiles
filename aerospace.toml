@@ -62,12 +62,12 @@ preset = 'qwerty'
 #                 Monitor pattern is the same as for 'workspace-to-monitor-force-assignment'.
 #                 See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
 [gaps]
-inner.horizontal = 6
-inner.vertical = 6
-outer.left = 6
-outer.bottom = 6
-outer.top = [{ monitor."DELL" = 44 }, 12]
-outer.right = 6
+inner.horizontal = 4
+inner.vertical = 4
+outer.left = 0
+outer.bottom = 0
+outer.top = [{ monitor."DELL" = 32 }, 12]
+outer.right = 0
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
