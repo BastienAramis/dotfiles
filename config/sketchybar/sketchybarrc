@@ -13,7 +13,7 @@ source "$DIR/colors.sh"
 source "$DIR/icons.sh"
 
 BAR_PROPS=(
-  height=32
+  height=37
   color=$BG_PRI_COLR
   shadow=off
   position=top
