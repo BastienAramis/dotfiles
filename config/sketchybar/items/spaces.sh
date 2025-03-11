@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SPACE_ICONS=("一" "二" "三" "四" "五" "六" "七" "八" "九")
+SPACE_ICONS=("一" "二" "三" "四" "五" "六" "七" "八" "九" "零")
 
 SPACE=(
   icon.padding_left=18
