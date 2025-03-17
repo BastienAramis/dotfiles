@@ -66,7 +66,7 @@ inner.horizontal = 4
 inner.vertical = 4
 outer.left = 0
 outer.bottom = 0
-outer.top = [{ monitor."DELL" = 37 }, 0]
+outer.top = 0
 outer.right = 0
 
 # 'main' binding mode declaration
@@ -120,28 +120,28 @@ alt-ctrl-minus = 'resize smart -50'
 alt-ctrl-equal = 'resize smart +50'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
-ctrl-1 = 'workspace 0'
-ctrl-2 = 'workspace 1'
-ctrl-3 = 'workspace 2'
-ctrl-4 = 'workspace 3'
-ctrl-5 = 'workspace 4'
-ctrl-6 = 'workspace 5'
-ctrl-7 = 'workspace 6'
-ctrl-8 = 'workspace 7'
-ctrl-9 = 'workspace 8'
-ctrl-0 = 'workspace 9'
+ctrl-1 = 'workspace 一'
+ctrl-2 = 'workspace 二'
+ctrl-3 = 'workspace 三'
+ctrl-4 = 'workspace 四'
+ctrl-5 = 'workspace 五'
+ctrl-6 = 'workspace 六'
+ctrl-7 = 'workspace 七'
+ctrl-8 = 'workspace 八'
+ctrl-9 = 'workspace 九'
+ctrl-0 = 'workspace 零'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-alt-ctrl-1 = 'move-node-to-workspace 0'
-alt-ctrl-2 = 'move-node-to-workspace 1'
-alt-ctrl-3 = 'move-node-to-workspace 2'
-alt-ctrl-4 = 'move-node-to-workspace 3'
-alt-ctrl-5 = 'move-node-to-workspace 4'
-alt-ctrl-6 = 'move-node-to-workspace 5'
-alt-ctrl-7 = 'move-node-to-workspace 6'
-alt-ctrl-8 = 'move-node-to-workspace 7'
-alt-ctrl-9 = 'move-node-to-workspace 8'
-alt-ctrl-0 = 'move-node-to-workspace 9'
+alt-ctrl-1 = 'move-node-to-workspace 一'
+alt-ctrl-2 = 'move-node-to-workspace 二'
+alt-ctrl-3 = 'move-node-to-workspace 三'
+alt-ctrl-4 = 'move-node-to-workspace 四'
+alt-ctrl-5 = 'move-node-to-workspace 五'
+alt-ctrl-6 = 'move-node-to-workspace 六'
+alt-ctrl-7 = 'move-node-to-workspace 七'
+alt-ctrl-8 = 'move-node-to-workspace 八'
+alt-ctrl-9 = 'move-node-to-workspace 九'
+alt-ctrl-0 = 'move-node-to-workspace 零'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 alt-tab = 'workspace-back-and-forth'
