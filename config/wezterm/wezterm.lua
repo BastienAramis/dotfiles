@@ -25,5 +25,7 @@ config.window_padding = { left = '0.5cell', right = '0.5cell', top = '0.5cell', 
 config.window_decorations = 'RESIZE|INTEGRATED_BUTTONS'
 config.window_background_opacity = 0.96
 config.macos_window_background_blur = 20
+
+config.window_close_confirmation = 'NeverPrompt'
  
 return config
