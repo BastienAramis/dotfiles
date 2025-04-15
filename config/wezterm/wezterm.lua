@@ -21,7 +21,6 @@ end
 config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 
 config.window_padding = { left = '0.5cell', right = '0.5cell', top = '0.5cell', bottom = '0.5cell' }
-config.default_cursor_style = 'BlinkingBar'
 
 config.window_decorations = 'RESIZE|INTEGRATED_BUTTONS'
 config.window_background_opacity = 0.96
