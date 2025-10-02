@@ -56,6 +56,7 @@ nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>log :action ActivateLogcatToolWindow<cr>
 nnoremap <leader>ter :action ActivateTerminalToolWindow<cr>
 nnoremap <leader>dfm :action ToggleDistractionFreeMode<cr>
+nnoremap <leader>pm :action TogglePresentationMode<cr>
 
 " NERDTree
 nnoremap <leader>nt :NERDTree<cr>
