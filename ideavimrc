@@ -55,6 +55,7 @@ nnoremap <leader>gf :action GotoFile<cr>
 nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>log :action ActivateLogcatToolWindow<cr>
 nnoremap <leader>ter :action ActivateTerminalToolWindow<cr>
+nnoremap <leader>haw :action HideActiveWindow<cr>
 nnoremap <leader>dfm :action ToggleDistractionFreeMode<cr>
 nnoremap <leader>pm :action TogglePresentationMode<cr>
 
